@@ -1,0 +1,49 @@
+@import "../../styles"
+
+.group
+    width: 90%
+    margin: $sep/5 auto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    column-gap: $sep/4
+    // @include responsivetablet
+    //     grid-template-columns: 1fr 1fr
+    @include responsivephone
+        grid-template-columns: 1fr
+    h3
+        grid-column-start: 1
+        grid-column-end: -1
+        color: $cprincipal
+        font-family: $fprincipal
+        font-size: 1.8rem
+        font-weight: 500
+        text-align: left
+        margin: 0
+        width: 100%
+        @include responsivetablet
+            font-size: 1.5rem
+    h4
+        color: $csecundario
+        font-family: $fprincipal
+        font-size: 1.4rem
+        font-weight: 400
+        text-align: center
+        margin: $sep/10
+        width: 90%
+        @include responsivetablet
+            font-size: 1.1rem
+            text-align: left
+        color: $cprincipal
+        span
+            color: $csecundario
+    p
+        color: $csecundario
+        font-family: $fprincipal
+        font-size: 1.2rem
+        font-weight: 300
+        text-align: center
+        margin: 0 auto
+        width: 95%
+        @include responsivetablet
+            font-size: 0.9rem
+            text-align: left

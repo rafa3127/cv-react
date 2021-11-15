@@ -1,0 +1,23 @@
+@import "../../styles"
+
+.languages
+    width: 90%
+    margin: $sep/5 auto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    @include responsivephone
+        grid-template-columns: 1fr
+    h4
+        color: $csecundario
+        font-family: $fprincipal
+        font-size: 1.4rem
+        font-weight: 400
+        text-align: center
+        margin: $sep/10
+        width: 90%
+        @include responsivetablet
+            font-size: 1.1rem
+            text-align: left
+        color: $cprincipal
+        span
+            color: $csecundario

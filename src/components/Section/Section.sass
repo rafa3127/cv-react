@@ -1,0 +1,8 @@
+@import '../../styles'
+.section-grid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    column-gap: $sep/4
+    @include responsivephone
+        display: flex
+        flex-direction: column

@@ -1,0 +1,65 @@
+@import "../../styles"
+.item
+    h3
+        font-size: 1.1rem
+        width: 100%
+        color: $cprincipal
+        font-family: $fprincipal
+        font-weight: 600
+        text-align: left
+        margin: 0
+        display: flex
+    h4
+        font-size: 1rem
+        width: 100%
+        color: $csecundario
+        font-family: $fprincipal
+        font-size: 0.9rem
+        font-weight: 400
+        text-align: left
+        margin: 0
+        @include responsivephone
+            margin: 0 auto
+    .up
+        display: none
+        margin-right: $sep/10
+    .down
+        display: block
+        margin-right: $sep/10
+    .date
+        color: $cprincipal
+        font-family: $fprincipal
+        font-size: 1rem
+        font-weight: 400
+        text-align: left
+        margin: 0
+        width: 90%
+        margin-bottom: $sep/3
+        @include responsivephone
+            margin: 0 auto
+    .description
+        display: none
+        .subItem
+            font-size: 0.9rem
+            width: 100%
+            color: $oscuro
+            font-family: $fprincipal
+            font-size: 1rem
+            font-weight: 300
+            text-align: justify
+            // margin: 0 $sep/5 $sep/5 5%
+            .icon
+                color: $csecundario
+                margin: 0 $sep/10 0 0
+
+.item 
+    &.open
+        .up
+            display: block
+        .down
+            display: none
+        .description
+            display: block
+
+
+
