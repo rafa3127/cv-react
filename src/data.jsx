@@ -13,7 +13,7 @@ const data = {
         {link:"https://github.com/rafa3127",
         icon: ["fab","github"]},
     ],
-    cvLink: "Aún no hay Link",
+    cvLink: "https://cv-rafael-correa.web.app/",
     sections: [
         {
             icon: ["fas", "user-graduate"],
