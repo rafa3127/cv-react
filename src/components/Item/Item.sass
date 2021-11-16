@@ -38,7 +38,7 @@
         @include responsivephone
             margin: 0 auto
     .description
-        display: none
+        
         .subItem
             font-size: 0.9rem
             width: 100%
@@ -53,6 +53,8 @@
                 margin: 0 $sep/10 0 0
 
 .item 
+    .description
+        display: none        
     &.open
         .up
             display: block
@@ -60,6 +62,16 @@
             display: none
         .description
             display: block
+            animation: rotateMenu 400ms ease-in-out forwards
+            transform-origin: top center
 
-
-
+            
+        @keyframes rotateMenu 
+            0% 
+                transform: rotateX(-90deg)
+            
+            70% 
+                transform: rotateX(20deg) 
+            
+            100% 
+                transform: rotateX(0deg) 

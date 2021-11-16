@@ -1,4 +1,6 @@
 import React from 'react'
+// import img from "../../img/Rafael-Correa.webp"
+
 // import PropTypes from 'prop-types'
 import './BasicData.sass'
 

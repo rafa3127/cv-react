@@ -8,6 +8,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import Sections from './components/Sections'
 import Languages from './components/Languages'
 import Skills from './components/Skills'
+import PageTitle from './PageTitle'
 
 library.add(fab, fas,far)
 
@@ -27,6 +28,7 @@ const {
 function App() {
   return (
     <div className="App">
+      {/* <PageTitle pageTitle = "Rafael Correa - CV" /> */}
       <PersonalInfo 
         img={img} 
         name={name} 

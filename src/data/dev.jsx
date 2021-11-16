@@ -2,7 +2,7 @@ const data = {
     img: 'https://sharp-shockley-65c48a.netlify.app/build/img/Rafael-Correa.webp',
     name: 'Rafael Correa',
     professions: ['Economista','Programador','Científico de Datos'],
-    profile: 'Soy un Joven graduado en Economía, con conocimientos avanzados en programación y cursando estudios como Científico de Datos. Creo en la innovación como base del desarrollo de proyectos de emprendimiento y empresas que busquen responder a una necesidad, y estoy interesado en formar parte de alguno de ellos para poner mis habilidades al servicio del desarrollo, tanto del mismo como de mi experiencia en el área.',
+    profile: 'Economista. Apasionado por la tecnología y el desarrollo de software. Estudiante de Ciencia de Datos. Creo en la innovación como base del desarrollo de proyectos de emprendimiento y empresas que busquen responder a una necesidad, y estoy interesado en formar parte de alguno de ellos para poner mis habilidades al servicio del desarrollo, tanto del mismo como de mi experiencia en el área.',
     email: 'rafaelc3127@gmail.com',
     phone: '+58 412 5585804',
     linksSN: [
@@ -24,7 +24,7 @@ const data = {
                     institution: "UNIVERSIDAD NEBRIJA",
                     location: "Madrid - España",
                     date: "2021-ACT",
-                    subItems: []
+                    subItems: ["Big Data", "Aprendizaje Automático", "Inteligencia artificial","Inteligencia de Negocios"]
                 },{
                     title: "ECONOMISTA EMPRESARIAL",
                     institution: "Universidad Metropolitana",
@@ -35,57 +35,60 @@ const data = {
 
                         `Obtención de Mención Honorífica y Publicación de Trabajo de Grado Titulado "Efecto del Consumo de Energías Renovables sobre el Crecimiento de 118 Países Seleccionados para el Periodo de 1990-2015" (Correa & Loyo, 2020).`
                     ]
-                },{
-                    title: "bachiller en ciencias",
-                    institution: `U.E. Colegio Agustiniano "Cristo Rey"`,
-                    location: "Caracas - Venezuela",
-                    date: "2011 - 2016",
-                    subItems: []
-                }
+                },
+                // {
+                //     title: "bachiller en ciencias",
+                //     institution: `U.E. Colegio Agustiniano "Cristo Rey"`,
+                //     location: "Caracas - Venezuela",
+                //     date: "2011 - 2016",
+                //     subItems: []
+                // }
             ]
-        },{
-            icon: ["fas","book-reader"],
-            title: "Actividades y Reconocimientos Estudiantiles",
-            items: [
-                {
-                    title:"MetroMUN-la",
-                    institution: "universidad metropolitana",
-                    location: "Caracas - Venezuela",
-                    date: "2017 - 2020",
-                    subItems: [
-                        "Desarrollo de habilidades en oratoria, negociación y resolución proactiva de problematicas, con el fin de asistir al Modelo de Naciones Unidas de la Universidad de los Andes (Bogotá, Colombia).",
-                        "Reconocimiento de Mejor Delegación en las conferencias de 2018 y 2019 del Modelo de Naciones Unidas de la Universidad de los Andes (Bogotá, Colombia)"
-                    ] 
-                },{
-                    title: "Lista de honor",
-                    institution: "universidad metropolitana",
-                    location: "Caracas - Venezuela",
-                    date: "2019",
-                    subItems: ["Reconocimiento otorgado a Estudiantes que, con su participación en actividades extra-cátedra, resaltan la imagen de la Universidad Metropolitana y dejan en alto su nombre a nivel nacional e internacional."]
-                },{
-                    title: "servicio comunitario sobresaliente",
-                    institution: "universidad metropolitana",
-                    location: "Caracas - Venezuela",
-                    date: "2019",
-                    subItems:[
-                        `Reconocimiento a la participación y compromiso sobresaliente en el Servicio Comunitario "Redes e Infraestructuas".`,
-                        "Colaboración del grupo en el informe entregado por la Asociación Civil Palmeros de Chacao a la UNESCO para ser reconocidos como Patrimonio Cultural de la Humanidad."
-                    ]
-                }
-            ]
-        },{
+        },
+        // {
+        //     icon: ["fas","book-reader"],
+        //     title: "Actividades y Reconocimientos Estudiantiles",
+        //     items: [
+        //         {
+        //             title:"MetroMUN-la",
+        //             institution: "universidad metropolitana",
+        //             location: "Caracas - Venezuela",
+        //             date: "2017 - 2020",
+        //             subItems: [
+        //                 "Desarrollo de habilidades en oratoria, negociación y resolución proactiva de problematicas, con el fin de asistir al Modelo de Naciones Unidas de la Universidad de los Andes (Bogotá, Colombia).",
+        //                 "Reconocimiento de Mejor Delegación en las conferencias de 2018 y 2019 del Modelo de Naciones Unidas de la Universidad de los Andes (Bogotá, Colombia)"
+        //             ] 
+        //         },{
+        //             title: "Lista de honor",
+        //             institution: "universidad metropolitana",
+        //             location: "Caracas - Venezuela",
+        //             date: "2019",
+        //             subItems: ["Reconocimiento otorgado a Estudiantes que, con su participación en actividades extra-cátedra, resaltan la imagen de la Universidad Metropolitana y dejan en alto su nombre a nivel nacional e internacional."]
+        //         },{
+        //             title: "servicio comunitario sobresaliente",
+        //             institution: "universidad metropolitana",
+        //             location: "Caracas - Venezuela",
+        //             date: "2019",
+        //             subItems:[
+        //                 `Reconocimiento a la participación y compromiso sobresaliente en el Servicio Comunitario "Redes e Infraestructuas".`,
+        //                 "Colaboración del grupo en el informe entregado por la Asociación Civil Palmeros de Chacao a la UNESCO para ser reconocidos como Patrimonio Cultural de la Humanidad."
+        //             ]
+        //         }
+        //     ]
+        // },
+        {
             icon: ["fas","user-tie"],
             title: "trabajo",
             items: [
                 {
-                    title: "GESTIÓN DE PROYECTOS, DESARROLLO DE HERRAMIENTAS Y Q.A. TESTER",
+                    title: "GESTIÓN DE PROYECTOS Y DESARROLLADOR DE HERRAMIENTAS",
                     institution: "LoreBI C.A.",
                     location: "Caracas - Venezuela",
                     date: "2021",
                     subItems: [
                         "Creación de procesos de diseño y aplicación de pruebas de aseguramiento de calidad de software.",
-                        "Desarrollo de aplicaciones de Gestión.",
-                        "Gestión de manejo de actividades y asignación de recursos a proyectos de Desarrollo de Software (Proyectos relacionados a IoT y FINTECH)"
+                        "Desarrollo de aplicación de gestión de Casos de Prueba (Angular11 y Python-Sanic).",
+                        "Gestión de manejo de actividades, asignación de recursos y revisión de proyectos de Desarrollo de Software (IoT y FINTECH)"
                     ]
                 },{
                     title: "DIRECTOR DE NEGOCIOS",
@@ -93,7 +96,9 @@ const data = {
                     location: "Caracas - Venezuela",
                     date: "ENE-MAR 2021",
                     subItems: [
-                        "Desarrollo de estrategias iniciales de captación de clientes."
+                        "Desarrollo de estrategias iniciales de captación de clientes.",
+                        "Desarrollo de herramientas de gestión de leads  (Google WorkSpace integrado con Bases de Datos SQL con Google Apps Script (JS)",
+                        "Desarrollo de herramientas de gestión y logistica para pequeños negocios (Google WorkSpace integrado con Bases de Datos SQL con Google Apps Script (JS)"
                     ]
                 },{
                     title: "socio-gerente y desarrollador",
@@ -101,11 +106,11 @@ const data = {
                     location: "Caracas - Venezuela",
                     date: "2018 - 2020",
                     subItems: [
-                        "Tienda por Departamento en línea en Venezuela que apuesta por el desarrollo del E-commerce en el país. Basado en un sistema de compra-venta de Dropshipping.",
+                        // "Tienda por Departamento en línea en Venezuela que apuesta por el desarrollo del E-commerce en el país. Basado en un sistema de compra-venta de Dropshipping.",
                         "Desarrollo del concepto, plan de negocios y experiencia de usuario de la tienda en línea.",
-                        "Desarrollo de Software y Arquitectura de aplicación web www.papagayo.shop.",
-                        "Creación de sistemas logísticos para llevar a cabo el proceso de compra-venta de la tienda en línea.",
-                        "Optimización de recursos en estrategias de mercadeo digital. Manejo de indicadores KPI's.",
+                        "Desarrollo de Software y Arquitectura de aplicación web www.papagayo.shop (PHP, HTML, CSS, JavaScript)",
+                        // "Creación de sistemas logísticos para llevar a cabo el proceso de compra-venta de la tienda en línea.",
+                        // "Optimización de recursos en estrategias de mercadeo digital. Manejo de indicadores KPI's.",
                         "Desarrollo de herramientas y software que contribuyen con el proceso administrativo y la experiencia de usuario de la tienda en línea."
                     ]
                 }
@@ -133,7 +138,8 @@ const data = {
                         "Integración del proceso de Testing como parte de las metodologías ágiles.",
                         "Automatización del proceso de Testing."
                     ]
-                },{
+                },
+                {
                     title:"INICIACIÓN A LA PROGRAMACIÓN CON JAVASCRIPT",
                     institution: "UDEMY",
                     date:"2021",
@@ -141,7 +147,8 @@ const data = {
                         "Conceptos básicos y Fundamentos de JavaScript.",
                         "Conceptos básicos y Fundamentos de la librería JQuery."
                     ]
-                },{
+                },
+                {
                     title: "DISEÑO UX",
                     institution: "UDEMY",
                     date: "2021",
@@ -170,7 +177,8 @@ const data = {
                     subItems: [
                         "Introducción a los fundamentos, aspectos básicos e historia de las tecnologías de Desarrollo Web, especialmente HTML y CSS."
                     ]
-                },{
+                },
+                {
                     title: "CLOUD COMPUTING",
                     institution: "Google Activate/Escuela de Organización Industrial y Desarrollo",
                     location: "España",
@@ -178,15 +186,16 @@ const data = {
                     subItems: [
                         "Fundamentos y conceptos básicos sobre las tecnologías de computación en la nube."
                     ]
-                },{
-                    title: "DOMINA LA BOLSA",
-                    institution: "JF PARTNERS",
-                    location: "Madrid - España",
-                    date: "2019",
-                    subItems: [
-                        "Desarrollo de estrategias de inversión bursátil, especialmente de largo plazo, basado en la evaluación de estados financieros, análisis fundamental y técnico."
-                    ]
-                }
+                },
+                // {
+                //     title: "DOMINA LA BOLSA",
+                //     institution: "JF PARTNERS",
+                //     location: "Madrid - España",
+                //     date: "2019",
+                //     subItems: [
+                //         "Desarrollo de estrategias de inversión bursátil, especialmente de largo plazo, basado en la evaluación de estados financieros, análisis fundamental y técnico."
+                //     ]
+                // }
             ]
         }
     ],
@@ -203,13 +212,15 @@ const data = {
                 {title: "Paquete Office", level: "Intermedio", subItems: []},
                 {title: "Google WorkSpace", level: "Avanzado", subItems: []}
             ]
-        },{
+        },
+        {
             title: " Marketing",
             items: [
                 {title: "Google Anlalytics",level:"Intermedio",subItems:[]},
                 {title: "Facebook Business",level:"Básico",subItems:[]}
             ]
-        },{
+        },
+        {
             title:"Diseño",
             items: [
                 {title: "Corel Draw",level:"",subItems:[]}
